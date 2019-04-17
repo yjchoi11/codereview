@@ -1,3 +1,6 @@
+#ifndef QUEUE_H_
+#define QUEUE_H_
+
 #include <queue>
 
 template <typename T> 
@@ -13,3 +16,4 @@ class templatePriorityQueue {
 	private:
 		std::priority_queue<T> storage;
 };
+#endif
