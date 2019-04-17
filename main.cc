@@ -9,14 +9,14 @@ using namespace std;
 
 template <typename T>
 void pushQueue(templatePriorityQueue<T>* Que, int data){
-	cout << "[+] Integer "<< data <<" pushed in the Priority Queue." << endl;
 	Que->push(data);
+	cout << "[+] Integer "<< data <<" pushed in the Priority Queue." << endl;
 }
 
 template<typename T>
 void popQueue(templatePriorityQueue<T>* Que){
-	cout << "[+] Integer "<< Que->top() << " will be poped from the Priority Queue." << endl;
 	Que->pop();
+	cout << "[+] Integer "<< Que->top() << " will be poped from the Priority Queue." << endl;	
 }
 
 int main(int argc, char* argv[]){
